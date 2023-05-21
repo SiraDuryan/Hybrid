@@ -1,0 +1,86 @@
+.block5 {
+    width: 100%;
+    height: 800px;
+    background-color: #ececec;
+
+
+}
+
+.divh1 {
+    width: 100%;
+    height: 50px;
+    background-color: #ececec;
+    padding-top: 40px;
+}
+
+
+.divh1 h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3.19px;
+    color: #033656;
+    
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5px;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.technologies a {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 6px 19px rgba(0,0,0,.16);
+    border-radius: 43px;
+    transition: all .2s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.techimg1 {
+  background-image: url ("https://hyebrid.tech/static/media/apranq2.ea58ef83.png");
+  width: 100px;
+  height: 100px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.techimg2 {
+    background-image: url("https://hyebrid.tech/static/media/apranq2.ea58ef83.png");
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.techimg3 {
+    background-image: url("https://hyebrid.tech/static/media/apranq3.c20cac1f.png");
+    width: 75%;
+    height: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.technologies h2 {
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+}
+
+.technologies a:hover {
+    box-shadow: none;
+}
